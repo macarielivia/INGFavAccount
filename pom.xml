@@ -92,6 +92,7 @@
 	<repository>
           <id>favacc_feed</id>
           <url>https://pkgs.dev.azure.com/senthilAlagarsamy/azartifact/_packaging/favacc_feed/maven/v1</url>
+	  <url>https://pkgs.dev.azure.com/macariesanda/ING2/_packaging/favacc_feed/maven/v1</url>
           <releases>
               <enabled>true</enabled>
           </releases>
@@ -106,6 +107,7 @@
      <repository>
       <id>favacc_feed</id>
       <url>https://pkgs.dev.azure.com/senthilAlagarsamy/azartifact/_packaging/favacc_feed/maven/v1</url>
+      <url>https://pkgs.dev.azure.com/macariesanda/ING2/_packaging/favacc_feed/maven/v1</url>
       <layout>default</layout>
       <name>OMD Maven Release Feed</name>
       <uniqueVersion>true</uniqueVersion>
@@ -113,6 +115,7 @@
     <snapshotRepository>
       <id>favacc_feed</id>
       <url>https://pkgs.dev.azure.com/senthilAlagarsamy/azartifact/_packaging/favacc_feed/maven/v1</url>
+      <url>https://pkgs.dev.azure.com/macariesanda/ING2/_packaging/favacc_feed/maven/v1</url>
       <layout>default</layout>
       <name>OMD Maven Snapshot Feed</name>
       <uniqueVersion>true</uniqueVersion>
