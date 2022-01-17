@@ -90,8 +90,7 @@
  <!-- only for Azure DevOps - Used the below tag for feeds -->
 	<repositories>
 	<repository>
-          <id>favacc_feed</id>
-          <url>https://pkgs.dev.azure.com/senthilAlagarsamy/azartifact/_packaging/favacc_feed/maven/v1</url>
+	  <id>favacc_feed</id>
 	  <url>https://pkgs.dev.azure.com/macariesanda/ING2/_packaging/favacc_feed/maven/v1</url>
           <releases>
               <enabled>true</enabled>
@@ -106,7 +105,6 @@
   <distributionManagement>
      <repository>
       <id>favacc_feed</id>
-      <url>https://pkgs.dev.azure.com/senthilAlagarsamy/azartifact/_packaging/favacc_feed/maven/v1</url>
       <url>https://pkgs.dev.azure.com/macariesanda/ING2/_packaging/favacc_feed/maven/v1</url>
       <layout>default</layout>
       <name>OMD Maven Release Feed</name>
@@ -114,7 +112,6 @@
     </repository>
     <snapshotRepository>
       <id>favacc_feed</id>
-      <url>https://pkgs.dev.azure.com/senthilAlagarsamy/azartifact/_packaging/favacc_feed/maven/v1</url>
       <url>https://pkgs.dev.azure.com/macariesanda/ING2/_packaging/favacc_feed/maven/v1</url>
       <layout>default</layout>
       <name>OMD Maven Snapshot Feed</name>
